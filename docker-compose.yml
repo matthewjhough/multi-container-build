@@ -15,7 +15,6 @@ services:
     build:
       context: ./node
       dockerfile: Dockerfile
-    # command: npm run start
   app2:
     image: node2
     ports:
@@ -23,4 +22,3 @@ services:
     build:
       context: ./node2
       dockerfile: Dockerfile
-    # command: npm run start
