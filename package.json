@@ -1,0 +1,23 @@
+{
+  "name": "multi-docker-build",
+  "version": "1.0.0",
+  "description": "a deployment script for multi-docker containers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewjhough/multi-container-build.git"
+  },
+  "keywords": [
+    "docker",
+    "nodejs"
+  ],
+  "author": "Matthew Joseph Hough",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewjhough/multi-container-build/issues"
+  },
+  "homepage": "https://github.com/matthewjhough/multi-container-build#readme"
+}
