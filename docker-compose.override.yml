@@ -1,0 +1,18 @@
+version: "3.4"
+
+services:
+  dotnet:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+  app:
+    environment:
+      - Development
+    ports:
+      - "8080"
+  app2:
+    environment:
+      - Development
+    ports:
+      - "8081"

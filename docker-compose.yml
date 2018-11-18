@@ -1,0 +1,26 @@
+version: "3.4"
+
+services:
+  dotnet:
+    image: dotnetproj
+    ports:
+      - "8000:80"
+    build:
+      context: ./dotnet
+      dockerfile: Dockerfile
+  app:
+    image: node
+    ports:
+      - "8080:8080"
+    build:
+      context: ./node
+      dockerfile: Dockerfile
+    # command: npm run start
+  app2:
+    image: node2
+    ports:
+      - "8081:8081"
+    build:
+      context: ./node2
+      dockerfile: Dockerfile
+    # command: npm run start

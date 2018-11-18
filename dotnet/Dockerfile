@@ -1,5 +1,6 @@
 FROM microsoft/aspnetcore-build:2.0 AS build-env
 WORKDIR /app
+EXPOSE 80
 
 # copy csproj and restore as distinct layers
 COPY *.csproj ./
